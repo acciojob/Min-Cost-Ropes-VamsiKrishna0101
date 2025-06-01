@@ -5,7 +5,7 @@ function mincost(arr)
 	arr.sort((a,b)=>a-b)
 	while(arr.length>0){
 		let first=arr.shift()
-		let second=arr.second()
+		let second=arr.shift()
 		let cost=first+second
 		mini+=cost
 		arr.push(cost)
