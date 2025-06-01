@@ -6,8 +6,9 @@ function mincost(arr)
 	while(arr.length>0){
 		let first=arr.shift()
 		let second=arr.second()
-		mini+=first+second
-		arr.push(mini)
+		let cost=first+second
+		mini+=cost
+		arr.push(cost)
 	}
 	return mini
 // return the min cost
