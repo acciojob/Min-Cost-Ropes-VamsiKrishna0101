@@ -9,6 +9,8 @@ function mincost(arr)
 		let cost=first+second
 		mini+=cost
 		arr.push(cost)
+			arr.sort((a,b)=>a-b)
+
 	}
 	return mini
 // return the min cost
